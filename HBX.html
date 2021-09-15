@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+    <style>
+        .container {
+            max-width: 1313px;
+        }
+
+        .nav a {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .life {
+            text-decoration: underline;
+        }
+
+        .life1 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 25px;
+        }
+
+        .bg {
+            background-color: black;
+        }
+
+        .logo2 {
+            margin-right: 60px;
+        }
+
+        .logo3 {
+            margin-left: 100px;
+        }
+
+        .list1 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 540px;
+        }
+
+        .list1 a.point {
+            background-color: black;
+            color: #fff;
+        }
+
+        .list1 a {
+            display: block;
+            margin: 5px;
+            padding: 12px 100px;
+            border: 1px solid #000;
+            text-align: center;
+            font-size: 14px;
+            color: #000;
+        }
+
+        .list2 {
+            margin-top: 90px;
+        }
+
+        .homepage {
+            margin-top: 90px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border: 1px solid #000;
+            border-radius: 0;
+            margin-right: 30px;
+        }
+
+        .sub {
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="d-none d-md-block">
+            <div class="container-fluid h-100 px-5">
+                <div class="nav row justify-content-between my-3 align-items-center h-100">
+                    <div class="nav-links" style="height: 25px;">
+                        <ul class="d-flex list-unstyled">
+                            <li>
+                                <a class="text-dark mr-4" href="#">男裝</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">女裝</a>
+                            </li>
+                            <li>
+                                <a class="life text-dark mr-4" href="#">生活</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">中古貨品</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">最新發售</a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="#">折扣商品</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo logo2">
+                        <a href="#"><img
+                                src="https://static.hbx.com/bundles/hypebeastweb/images/hbx-logo.svg?1620503463"
+                                alt=""></a>
+                    </div>
+                    <div class="nav-soical" style="height: 25px;">
+                        <ul class="d-flex list-unstyled">
+                            <li>
+                                <a class="text-dark mr-4" href="#">搜索</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">登入</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">幫助</a>
+                            </li>
+                            <li>
+                                <a class="text-dark mr-4" href="#">您的購物袋</a>
+                            </li>
+                            <li>
+                                <img style="width: 23px; height: 14px;"
+                                    src="https://static.hbx.com/bundles/hypebeastweb/images/flags/tw.jpg?1620971156"
+                                    alt="">
+                                <a class="text-dark" href="#">TWD</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none">
+            <div class="container-fluid">
+                <div class="nav d-flex justify-content-between align-items-center my-2 mx-auto">
+                    <div class="nav-links" style="height: 25px;">
+                        <div class="section-left">
+                            <a href="#" data-toggle="slide-menu" class="toggle">
+                                <svg width="18" height="12">
+                                    <rect width="18" height="2"></rect>
+                                    <rect y="5" width="18" height="2"></rect>
+                                    <rect y="10" width="18" height="2"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="logo logo3">
+                        <a href="#"><img
+                                src="https://static.hbx.com/bundles/hypebeastweb/images/hbx-logo.svg?1620503463"
+                                alt=""></a>
+                    </div>
+                    <div class="nav-soical" style="height: 25px;">
+                        <ul class="d-flex list-unstyled">
+                            <li>
+                                <a class="text-dark mr-4" href="#">搜索</a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="#">您的購物袋</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg py-1 text-light text-center">
+        <span>
+            現在訂閱便會得到首單九折優惠
+        </span>
+    </div>
+
+    <div class="life1 my-4 text-center">
+        <span>
+            HBX生活
+        </span>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-6">
+                <a style="width: 100%; height: 190px; overflow: hidden;" href="#">
+                    <img class="w-100 h-100" style="object-fit: cover;"
+                        src="https://image-cdn.hypb.st/https%3A%2F%2Fhbx.hypebeast.com%2Ffiles%2F2021%2F01%2FGIFT-SHOP_031_3x2-1.jpg?q=90&v=1"
+                        alt="">
+                    <div class="d-flex flex-column">
+                        <div class="text-dark" style="font-size: 30px; font-weight: 700;">生活家品</div>
+                        <div class="text-dark" style="font-weight: 700;">
+                            <div>立即選購</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-6">
+                <a style="width: 100%; height: 190px; overflow: hidden;" href="#">
+                    <img class="w-100 h-100" style="object-fit: cover;"
+                        src="https://image-cdn.hypb.st/https%3A%2F%2Fhbx.hypebeast.com%2Ffiles%2F2021%2F05%2FLeeeeeeToy_banner.jpg?q=90&v=1"
+                        alt="">
+                    <div>
+                        <div class="text-dark" style="font-size: 30px; font-weight: 700;">玩具</div>
+                        <div class="text-dark" style="font-weight: 700;">
+                            <div>立即選購</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 d-block d-md-none list2 d-flex justify-content-center">
+                <ul class="list-unstyled list1">
+                    <li class="first"><a class="point" href="#"><span>新到貨品</span></a></li>
+                    <li class="first big"><a href="#"><span>品牌</span></a></li>
+                    <li class="first"><a href="#"><span>生活用品</span></a></li>
+                    <li class="first big"><a href="#"><span>玩具</span></a></li>
+                    <li class="first"><a href="#"><span>電子產品</span></a></li>
+                    <li class="first"><a href="#"><span>戶外用品</span></a></li>
+                    <li class="first big"><a href="#"><span>護理</span></a></li>
+                    <li class="first"><a href="#"><span>折扣商品</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-between homepage px-5 px-md-3">
+            <div>
+                <a href="#">
+                    <h2 class="text-dark">最新發售</h2>
+                </a>
+            </div>
+            <div class="mt-2">
+                <a href="#">
+                    <span class="text-dark">
+                        Next
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-2 justify-content-between px-5 px-md-3">
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fa8%2F14%2FIncense-Burners_4_5H-0b49a40e36fc90e0d79d1f17e92c.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Yeenjoy Studio</h6>
+                    <p style="width: 200px;">Yeenjoy x Jurassic I-rex Incense Chamber</p>
+                    <span>TWD 21897</span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F9d%2F6d%2Fherocross-white-sid-scud-golden-skull-version-unisex-Toy_2_Gold_1-8274702d380e883cc9cb54dbb8c8.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">HEROCROSS</h6>
+                    <p style="width: 200px;">Sid & Scud (Golden Skull Version)</p>
+                    <span>TWD 12822</span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F64%2Fd1%2Frizzoli-white-martin-margiela-the-women-s-collections-1989-2009-unisex-4_Maison_Margiela-4d0064e6e2821a86eceed9f642ca.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Rizzoli</h6>
+                    <p style="width: 200px">Martin Margiela: The Women's Collections</p>
+                    <span class="text-danger">售罄
+                    </span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Ff6%2Fd0%2Frizzoli-multicolor-david-driskell-icons-of-nature-and-history-unisex-2_David_Driskell-818e9da855560a2c672578777e12.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Rizzoli</h6>
+                    <p style="width: 200px;">David Driskell: Icons of Nature and History</p>
+                    <span>TWD 1441</span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F22%2Ff6%2Fsaintwoods-grey-accidents-happen-throw-black-unisex-Blanket_1_2H-1e32b49840d3cee5b88a3df60b9e.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Saintwoods</h6>
+                    <p style="width: 200px;">Accidents Happen Throw</p>
+                    <span>TWD 3457</span>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-5 px-5 px-md-3">
+            <div>
+                <a href="#">
+                    <h2 class="text-dark">最新生活家品</h2>
+                </a>
+            </div>
+            <div class="mt-2">
+                <a href="#">
+                    <span class="text-dark">
+                        Next
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-2 justify-content-between px-5 px-md-3">
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F3d%2Fbb%2Fbrain-dead-green-brain-dead-x-gotcha-polyurethane-stench-towel-green-unisex-Towel_2_2-77d565cc598089d7a8c644873d49.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Brain Dead</h6>
+                    <p style="width: 200px;">Brain Dead x Gotcha Polyurethane Stench Towel</p>
+                    <span>TWD 1873
+                        <small class="text-muted ml-2"> 新品到貨</small>
+                    </span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F0a%2Fac%2Fhuman-made-green-duck-tumbler-unisex-Cup_1_1-1b9f77b63a719164810be5ba5698.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Human Made</h6>
+                    <p style="width: 200px;">Duck Tumbler</p>
+                    <span class="text-danger">售罄
+                    </span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fe9%2F50%2Fyeenjoy-studio-blue-88-rissing-incense-chamber-t-shirt-unisex-Burner-Set_1_1-38990701836a0f7c03d4fbc92766.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Yeenjoy Studio</h6>
+                    <p style="width: 200px;">88 Rising Incense Chamber & T-Shirt</p>
+                    <span>TWD 14406
+                        <small class="text-muted ml-2">新品到貨</small>
+                    </span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F37%2F71%2Fhuman-made-white-polar-bear-cutter-mat-white-unisex-Cutter-Mat_2_1-4363ba27878f9639f2283c69c5ab.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Human Made</h6>
+                    <p style="width: 200px">Polar Bear Cutter Mat</p>
+                    <span class="text-danger">售罄
+                    </span>
+                </div>
+            </div>
+            <div class="demo">
+                <a href="#"><img style="width: 200px; height: 260px;"
+                        src="https://image-cdn.hypb.st/http%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F8c%2Fe2%2Fa-insulated-mug-with-lid-black-unisex-12-334327413854e7b8d439da786368.jpg?q=90&w=720&fit=max&v=1"
+                        alt=""></a>
+                <div class="text-center mt-3">
+                    <h6 class="mb-0">Hario</h6>
+                    <p style="width: 200px;">Insulated Mug With Lid</p>
+                    <span>TWD 1152
+                        <small class="text-muted ml-2">新品到貨</small>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-center mt-4">
+            <button class="btn mt-3 py-3 mr-0 mr-md-4" style="font-weight:700;">更多生活家品</button>
+            <button class="btn mt-3 py-3 mr-0" style="font-weight: 700;">更多玩具</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="mt-5 pt-5 mx-3" style="border-top: 1px solid #000;">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-4 d-md-none">
+                    <img style="width: 23px; height: 14px;"
+                        src="https://static.hbx.com/bundles/hypebeastweb/images/flags/tw.jpg?1620971156" alt="">
+                    <a class="text-dark mr-4" style="font-weight: 700;" href="#">TAIWAN</a>
+                    <a class="text-dark mr-4" style="font-weight: 700;" href="#"><i
+                            class="fas fa-dollar-sign"></i>TWD</a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 pl-3">
+                    <h6>關注我們</h6>
+                    <a class="text-dark mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="text-dark mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="text-dark mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-dark" href="#"><i class="fab fa-weibo"></i></a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 mr-5">
+                    <h6>下載HBX APP</h6>
+                    <a href="#"><img style="width: 40px; height: 40px;" src="./img/截圖 2021-05-10 23.32.53.png"
+                            alt=""></a>
+                    <a class="text-dark" style="font-size: 14px; font-weight: 700;" href="#">專為IOS及ANDROID系統度身訂造</a>
+                </div>
+                <div class="col-12 col-md-3 mb-3 mr-2">
+                    <h6>訂閱我們的電子快報</h6>
+                    <div class="text-muted" style="font-size: 14px; border-bottom: 1px solid #000;">現在訂閱可以獲得首單九折優惠！
+                    </div>
+                    <p><a class="sub text-dark" style="font-size: 10px; font-weight: 700;" href="#">訂閱</a></p>
+                </div>
+                <div class="d-none d-md-block mb-3 ml-4">
+                    <h6>語言與地區</h6>
+                    <img style="width: 23px; height: 14px;"
+                        src="https://static.hbx.com/bundles/hypebeastweb/images/flags/tw.jpg?1620971156" alt="">
+                    <a class="text-dark mr-2" style="font-weight: 700; font-size: 14px;" href="#">TAIWAN</a>
+                    <a class="text-dark mr-2" style="font-weight: 700; font-size: 14px;" href="#"><i
+                            class="fas fa-globe"></i>繁體中文</a>
+                    <a class="text-dark" style="font-weight: 700; font-size: 14px;" href="#"><i
+                            class="fas fa-dollar-sign"></i>TWD</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="lower-section my-4 d-flex justify-content-between">
+        <div class="d-none d-md-block ml-4">
+            <ul class="list-unstyled d-flex">
+                <li><a class="text-dark mr-4" style="font-size: 12px; font-weight: 700;" href="#">關於</a></li>
+                <li><a class="text-dark mr-4" style="font-size: 12px; font-weight: 700;" href="#">幫助</a></li>
+                <li><a class="text-dark mr-4" style="font-size: 12px; font-weight: 700;" href="#">職位空缺</a></li>
+                <li><a class="text-dark mr-4" style="font-size: 12px; font-weight: 700;" href="#">聯盟行銷計畫</a></li>
+                <li><a class="text-dark mr-4" style="font-size: 12px; font-weight: 700;" href="#">HBX PRO</a></li>
+                <li><a class="text-dark" style="font-size: 12px; font-weight: 700;" href="#">客戶推薦計畫</a></li>
+            </ul>
+        </div>
+        <div class="ml-3">
+            <div style="font-weight: 500;">
+                <span style="font-size: 12px;">
+                    2021
+                    <a class="text-dark" href="#">HYPEBEAST LIMITED</a>
+                    . 版權所有
+                </span>
+                <a class="text-dark" style="font-size: 12px;" href="#">網站聲明</a>
+                <a class="text-dark" style="font-size: 12px;" href="#">隱私政策</a>
+            </div>
+            <span class="mr-3" style="font-size: 12px; font-weight: 500;">HBX® is a registered trademark of Hypebeast
+                Hong Kong
+                Ltd.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
